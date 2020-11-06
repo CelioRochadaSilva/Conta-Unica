@@ -21,7 +21,7 @@ public class Conta {
         this.titular = pTitular; // atribuir paramentro titular ao pTitular
         qtdcontas++ ; // inclementação a quantida de contas
         this.numero = qtdcontas; // vai ser auto inclemental
-        this.saldo = 0; // valor inicial
+        this.saldo = 0; // valor inicial da conta
     }
    // local em que tdos dados bancarios vai ser a aprsentatados 
     public void DadosBancarios(){
@@ -42,7 +42,7 @@ public class Conta {
         
         System.out.println("--Saldo posterior--"+ this.saldo);
         System.out.println("--Fim do deposito--");
-        System.out.println(" ");
+        
        
     }
     public void Sacar(double pValor){
