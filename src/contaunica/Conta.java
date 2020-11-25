@@ -7,7 +7,7 @@ package contaunica;
 
 /**
  *
- * @author Celio_pc
+ * @author Celio_pc celio
  */
 public class Conta {
 
@@ -31,7 +31,7 @@ public class Conta {
        System.out.println("--Titular--"+this.titular);
        System.out.println("--Saldo--"+this.saldo);
        System.out.println("--Fim dados bancario--" ); 
-       System.out.println(" " );
+       
     }
     public void Depositar(double pValor){
         System.out.println(" ");
